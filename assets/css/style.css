@@ -1,0 +1,34 @@
+header {
+  z-index: 1000;
+}
+
+.navbar {
+  margin-left: 20px;
+}
+
+.logout-btn {
+  margin-right: 20px;
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #f44336;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f;
+}
+
+.logout-btn:active {
+  background-color: #b71c1c;
+}
+
+/* Gaya untuk menu aktif */
+nav a.scroll-link.active {
+  color: blue;
+}
